@@ -25,7 +25,6 @@ int solve(int n){
 		L[i][i] = a[i];
 		R[i][i] = a[i];
 	}
-	
 	// 枚举区间长度
 	for (int len = 2; len <= n; len++) {
 		// 枚举区间左端点
@@ -56,7 +55,6 @@ int main() {
 	while (T--) {
 		int n;
 		cin >> n;
-		
 		for (int i = 1; i <= n; i++) {
 			cin >> a[i];			
 		}
